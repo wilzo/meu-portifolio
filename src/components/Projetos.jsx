@@ -46,7 +46,7 @@ function Projetos() {
           Projetos
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
-          <div className="bg-gray-800 rounded-2xl p-4 lg:p-6 shadow-2xl hover:shadow-2xl hover:scale-105 hover:z-10 transition-all duration-300 cursor-pointer group">
+          <div className="bg-gray-800 rounded-2xl p-4 lg:p-6 shadow-2xl hover:shadow-2xl hover:scale-105 hover:-translate-y-2 transition-all duration-300 cursor-pointer group relative">
             <div className="overflow-hidden rounded-lg mb-4">
               <img
                 src={megaTintas}
@@ -71,10 +71,11 @@ function Projetos() {
               href="https://megatintasvg.com.br/"
               target="_blank"
               rel="noopener noreferrer"
-              className="absolute inset-0 z-10"
+              className="absolute inset-0"
+              aria-label="Abrir Mega Tintas Website"
             ></a>
           </div>
-          <div className="bg-gray-800 rounded-2xl p-4 lg:p-6 shadow-2xl hover:shadow-2xl hover:scale-105 hover:z-10 transition-all duration-300 cursor-pointer group">
+          <div className="bg-gray-800 rounded-2xl p-4 lg:p-6 shadow-2xl hover:shadow-2xl hover:scale-105 hover:-translate-y-2 transition-all duration-300 cursor-pointer group relative">
             <div className="overflow-hidden rounded-lg mb-4">
               <img
                 src={pokedex}
@@ -100,10 +101,11 @@ function Projetos() {
               href="https://poke-dex-ruby.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
-              className="absolute inset-0 z-10"
+              className="absolute inset-0"
+              aria-label="Abrir Pokedex"
             ></a>
           </div>
-          <div className="bg-gray-800 rounded-2xl p-4 lg:p-6 shadow-2xl hover:shadow-2xl hover:scale-105 hover:z-10 transition-all duration-300 cursor-pointer group">
+          <div className="bg-gray-800 rounded-2xl p-4 lg:p-6 shadow-2xl hover:shadow-2xl hover:scale-105 hover:-translate-y-2 transition-all duration-300 cursor-pointer group relative">
             <div className="overflow-hidden rounded-lg mb-4">
               <img
                 src={entregaja}
@@ -128,10 +130,11 @@ function Projetos() {
               href="https://github.com/wilzo/flutter_appEntrega"
               target="_blank"
               rel="noopener noreferrer"
-              className="absolute inset-0 z-10"
+              className="absolute inset-0"
+              aria-label="Abrir Entrega JA"
             ></a>
           </div>
-          <div className="bg-gray-800 rounded-2xl p-4 lg:p-6 shadow-2xl hover:shadow-2xl hover:scale-105 hover:z-10 transition-all duration-300 cursor-pointer group">
+          <div className="bg-gray-800 rounded-2xl p-4 lg:p-6 shadow-2xl hover:shadow-2xl hover:scale-105 hover:-translate-y-2 transition-all duration-300 cursor-pointer group relative">
             <div className="overflow-hidden rounded-lg mb-4">
               <img
                 src={wilsonmarket}
@@ -161,10 +164,11 @@ function Projetos() {
               href="https://stg-catalog-challenge-plhg.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
-              className="absolute inset-0 z-10"
+              className="absolute inset-0"
+              aria-label="Abrir Wilson Market"
             ></a>
           </div>
-          <div className="bg-gray-800 rounded-2xl p-4 lg:p-6 shadow-2xl hover:shadow-2xl hover:scale-105 hover:z-10 transition-all duration-300 cursor-pointer group">
+          <div className="bg-gray-800 rounded-2xl p-4 lg:p-6 shadow-2xl hover:shadow-2xl hover:scale-105 hover:-translate-y-2 transition-all duration-300 cursor-pointer group relative">
             <div className="overflow-hidden rounded-lg mb-4">
               <img
                 src={perfilDesafio}
@@ -190,10 +194,11 @@ function Projetos() {
               href="https://perfil-desafio.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
-              className="absolute inset-0 z-10"
+              className="absolute inset-0"
+              aria-label="Abrir Lista de Perfis Gerenciaveis"
             ></a>
           </div>
-          <div className="bg-gray-800 rounded-2xl p-4 lg:p-6 shadow-2xl hover:shadow-2xl hover:scale-105 hover:z-10 transition-all duration-300 cursor-pointer group">
+          <div className="bg-gray-800 rounded-2xl p-4 lg:p-6 shadow-2xl hover:shadow-2xl hover:scale-105 hover:-translate-y-2 transition-all duration-300 cursor-pointer group relative">
             <div className="overflow-hidden rounded-lg mb-4">
               <img
                 src={relogiodigital}
@@ -218,7 +223,8 @@ function Projetos() {
               href="https://github.com/wilzo/relogioDigital"
               target="_blank"
               rel="noopener noreferrer"
-              className="absolute inset-0 z-10"
+              className="absolute inset-0"
+              aria-label="Abrir Relógio Digital"
             ></a>
           </div>
         </div>
